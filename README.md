@@ -1,10 +1,12 @@
 ```markdown
 
 
-This API serves as a platform for video-related tasks, including uploading, transcribing, and streaming. 
-## Base URL
+This API serves as a platform for video-related tasks, including uploading, transcribing, and streaming.
 
-The base URL for all API endpoints is `http://fortunate3d-001-site1.atempurl.com/`.
+## Live URL
+
+The Live URL for all API endpoints is `http://fortunate3d-001-site1.atempurl.com/`.
+##
 
 ## Endpoints
 
@@ -17,7 +19,7 @@ The API provides the following endpoints:
 - `/DeleteVideo`: Delete a video.
 - `/get-all`: Get a list of all uploaded videos.
 
-For detailed documentation of each endpoint, please refer to the [API Documentation](#api-documentation) section below.
+For detailed documentation of each endpoint, please refer to the https://github.com/FortunateOmonuwa/HNGXStage5/blob/main/HNGxVideoStreaming/Documentation.md section below.
 
 ## Getting Started
 
