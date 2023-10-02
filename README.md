@@ -1,34 +1,13 @@
-`VideoUploadController` API:
+
 
 ```markdown
-# HNGxVideoStreaming
 
-HNGxVideoStreaming is a video upload, transcription, and streaming service designed to simplify the process of uploading, transcribing, and streaming video content.
 
-## Table of Contents
-
-- [Features](#features)
-- [Base URL](#base-url)
-- [Endpoints](#endpoints)
-- [Getting Started](#getting-started)
-- [API Documentation](#api-documentation)
-- [Error Handling](#error-handling)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Features
-
-- Start video uploads.
-- Upload video chunks for ongoing uploads.
-- Complete video uploads by merging chunks and extracting audio.
-- Stream uploaded videos.
-- Delete uploaded videos.
-- Get a list of all uploaded videos.
-- Transcribe audio from videos.
+HNGx is a video upload, transcription, and streaming service designed to simplify the process of uploading, transcribing, and streaming video content.
 
 ## Base URL
 
-The base URL for all API endpoints is `https://example.com/VideoUpload`. Replace `example.com` with your actual domain.
+The base URL for all API endpoints is `http://fortunate3d-001-site1.atempurl.com/`.
 
 ## Endpoints
 
