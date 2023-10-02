@@ -21,7 +21,7 @@ For detailed documentation of each endpoint, please refer to the [API Documentat
 
 ## Getting Started
 
-To get started with HNGxVideoStreaming, follow these steps:
+To get started, follow these steps:
 
 1. Clone this repository to your local machine:
 
