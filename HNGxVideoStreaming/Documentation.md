@@ -1,5 +1,9 @@
 # Video Upload API Documentation
 
+## Base URL
+
+The base URL for all API endpoints is `http://fortunate3d-001-site1.atempurl.com/`.
+
 This documentation provides an overview of the Video Upload API endpoints and their functionality.
 
 ## Endpoints
