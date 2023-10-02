@@ -1,10 +1,11 @@
 ```markdown
 
 
-This API serves as a platform for video-related tasks, including uploading, transcribing, and streaming. 
-## Base URL
+This API serves as a platform for video-related tasks, including uploading, transcribing, and streaming.
 
-The base URL for all API endpoints is `http://fortunate3d-001-site1.atempurl.com/`.
+##
+The live link is at [http://fortunate3d-001-site1.atempurl.com/](http://fortunate3d-001-site1.atempurl.com/)
+##
 
 ## Endpoints
 
