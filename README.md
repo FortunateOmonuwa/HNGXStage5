@@ -1,34 +1,10 @@
-`VideoUploadController` API:
-
 ```markdown
-# HNGxVideoStreaming
 
-HNGxVideoStreaming is a video upload, transcription, and streaming service designed to simplify the process of uploading, transcribing, and streaming video content.
 
-## Table of Contents
-
-- [Features](#features)
-- [Base URL](#base-url)
-- [Endpoints](#endpoints)
-- [Getting Started](#getting-started)
-- [API Documentation](#api-documentation)
-- [Error Handling](#error-handling)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Features
-
-- Start video uploads.
-- Upload video chunks for ongoing uploads.
-- Complete video uploads by merging chunks and extracting audio.
-- Stream uploaded videos.
-- Delete uploaded videos.
-- Get a list of all uploaded videos.
-- Transcribe audio from videos.
-
+This API serves as a platform for video-related tasks, including uploading, transcribing, and streaming. 
 ## Base URL
 
-The base URL for all API endpoints is `https://example.com/VideoUpload`. Replace `example.com` with your actual domain.
+The base URL for all API endpoints is `http://fortunate3d-001-site1.atempurl.com/`.
 
 ## Endpoints
 
@@ -45,12 +21,12 @@ For detailed documentation of each endpoint, please refer to the [API Documentat
 
 ## Getting Started
 
-To get started with HNGxVideoStreaming, follow these steps:
+To get started, follow these steps:
 
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/HNGxVideoStreaming.git
+   git clone https://github.com/FortunateOmonuwa/HNGXStage5.git
    ```
 
 2. Configure your environment variables, database, and storage settings as needed.
@@ -65,6 +41,6 @@ For detailed documentation of the API endpoints, refer to the [API Documentation
 
 ## Error Handling
 
-If an error occurs during API requests, the API will return an error response with details in the `ErrorMessage` field. Refer to the API documentation for specific error codes and descriptions.
+If an error occurs during API requests, the API will return an error response with details in the `ErrorMessage` field. 
 
 ```
