@@ -4,7 +4,7 @@
 This API serves as a platform for video-related tasks, including uploading, transcribing, and streaming.
 
 ##
-The live link is at [http://fortunate3d-001-site1.atempurl.com/](http://fortunate3d-001-site1.atempurl.com/)
+The live link is at http://fortunate3d-001-site1.atempurl.com/
 ##
 
 ## Endpoints
