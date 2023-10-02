@@ -5,10 +5,9 @@ using HNGxVideoStreaming.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-var conEnviro = Environment.GetEnvironmentVariable("CONNECTION_STRING");
-var connectionString = conEnviro ?? builder
+var connectionString = builder
                 .Configuration
-                .GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+                .GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<VideoSteamApiDbContext>(options =>
     options.UseSqlServer(connectionString));
 
@@ -28,7 +27,7 @@ builder.Services.AddCors(options =>
     });
 });
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
