@@ -80,3 +80,23 @@ POST /VideoUpload/UploadComplete?uploadKey=your_upload_key_here
 GET /VideoUpload/StreamVideo/your_upload_key_here
 
 ```
+
+## 4. Delete Video
+
+- **URL: /DeleteVideo**
+
+- **Method: DELETE**
+**Description: Delete a video and associated data.**
+
+- **Parameters:**
+
+- uploadKey (string): The unique key for the upload context.
+- Response: Information about the deletion operation.
+
+
+### Example Request:
+
+```
+DELETE /VideoUpload/DeleteVideo?uploadKey=your_upload_key_here
+
+```
