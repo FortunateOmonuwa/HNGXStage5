@@ -1,8 +1,7 @@
 ```markdown
 
 
-HNGx is a video upload, transcription, and streaming service designed to simplify the process of uploading, transcribing, and streaming video content.
-
+This API serves as a platform for video-related tasks, including uploading, transcribing, and streaming. 
 ## Base URL
 
 The base URL for all API endpoints is `http://fortunate3d-001-site1.atempurl.com/`.
@@ -42,6 +41,6 @@ For detailed documentation of the API endpoints, refer to the [API Documentation
 
 ## Error Handling
 
-If an error occurs during API requests, the API will return an error response with details in the `ErrorMessage` field. Refer to the API documentation for specific error codes and descriptions.
+If an error occurs during API requests, the API will return an error response with details in the `ErrorMessage` field. 
 
 ```
